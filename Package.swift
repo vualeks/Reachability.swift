@@ -6,10 +6,9 @@ import PackageDescription
 let package = Package(
     name: "Reachability",
     platforms: [
-        .macOS(.v10_12),
         .iOS(.v10),
-        .tvOS(.v10),
-        .watchOS(.v3)
+        .macOS(.v10_12),
+        .tvOS(.v10)
     ],
     products: [
         .library(
